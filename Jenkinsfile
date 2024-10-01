@@ -5,7 +5,7 @@ pipeline {
         // Etapa 1: Clonar el repositorio desde GitHub
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/rodolfoalegre/DevOps-S3-TrabajoIndividual.git'  
+                git branch: 'master', url: 'https://github.com/rodolfoalegre/INDIVIDUAL-RICKYMORTY.git'  
                 // Se clona el repositorio desde la rama 'master' de la URL proporcionada.
             }
         }
