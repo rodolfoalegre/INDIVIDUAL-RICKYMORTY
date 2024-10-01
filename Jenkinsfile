@@ -33,7 +33,7 @@ pipeline {
     post {
         always {
             echo 'Pipeline completed.'
-            cleanWs()  // Limpia el espacio de trabajo después de la ejecución para liberar espacio.
+           // cleanWs()  // Limpia el espacio de trabajo después de la ejecución para liberar espacio.
         }
     }
 }
